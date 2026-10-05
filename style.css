@@ -626,6 +626,7 @@ h3 { font-size: var(--font-size-h3); letter-spacing: -0.01em; }
 
 .footer {
   padding-top: var(--space-3xl);
+  border-top: var(--border-width) solid rgb(180 199 187 / 0.2);
 }
 
 .footer__grid {
@@ -671,10 +672,13 @@ h3 { font-size: var(--font-size-h3); letter-spacing: -0.01em; }
 
 .footer__copyright {
   border-top: var(--border-width) solid rgb(180 199 187 / 0.2);
-  padding: var(--space-lg) 0;
-  text-align: center;
+  padding: var(--space-lg) 0 var(--space-xl);
   color: var(--color-on-dark-muted);
   font-size: var(--font-size-small);
+}
+
+.footer__copyright p {
+  margin: 0;
 }
 
 .cta-card,
